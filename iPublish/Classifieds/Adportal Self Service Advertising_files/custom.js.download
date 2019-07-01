@@ -1,0 +1,13 @@
+/*
+ * The purpose of this file is to contain any site specific code.
+ */
+
+function onGenerateJob() {
+	// overdefine to adjust data before generateJob.
+}
+
+function onScheduleJob() {
+	// overdefine to add fine control over scheduling.
+	// return false to cancel submission	
+	return true;
+}

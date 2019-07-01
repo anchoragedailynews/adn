@@ -3705,14 +3705,10 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 }
 
 .navbar-collapse {
-	display: block;
-	text-align: center;
-	width: auto;
-	max-width: 600px;
   max-height: 340px;
   overflow-x: visible;
-  padding-right: 0px;
-  padding-left: 0px;
+  padding-right: 6px;
+  padding-left: 6px;
   border-top: 1px solid transparent;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   -webkit-overflow-scrolling: touch
@@ -3892,10 +3888,10 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 
 @media (min-width:768px) {
   .navbar-left {
-    float: none !important
+    float: left !important
   }
   .navbar-right {
-    float: none !important
+    float: right !important
   }
 }
 
@@ -7154,7 +7150,7 @@ body.lb-disable-scrolling {
   height: 250px;
   margin: 0 auto;
   border-radius: 4px;
-  background-color: white;
+  background-color: white
 }
 
 .lb-outerContainer:after {
@@ -7325,26 +7321,26 @@ ol, ul {
 #wrapper {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 6px;
+  padding-right: 6px;
   background-color: #fff
 }
 
 @media (min-width:768px) {
   #wrapper {
-    width: 100%;
+    width: 732px
   }
 }
 
 @media (min-width:992px) {
   #wrapper {
-    width: 100%;
+    width: 952px
   }
 }
 
 @media (min-width:1200px) {
   #wrapper {
-    width: 100%;
+    width: 1152px
   }
 }
 
@@ -7496,16 +7492,7 @@ table#clients {
 }
 
 .fullbanner {
-	self-align: center !important;
-  /* padding: 10px; */
-	/* display: block; */
-  float: none !important;
-	margin: 0px auto !important;
-}
-
-img.fullbanner {
-  /* display: block !important; */
-  /* height: 10px; */
+  float: right !important
 }
 
 @media (max-width:767px) {
@@ -7921,7 +7908,7 @@ ul.breadcrumbs>.active {
   padding-right: 6px;
   margin-top: 6px;
   margin-bottom: 6px;
-  border-right: 1px solid #ddd;
+  border-right: 1px solid #ddd
 }
 
 @media (min-width:768px) {
@@ -8559,7 +8546,7 @@ ul.selection>.dropdown .dropdown-menu {
 }
 
 div.selection {
-  display: none;
+  clear: both
 }
 
 #header>.selection {
@@ -8567,8 +8554,8 @@ div.selection {
   width: 100%;
   position: relative;
   min-height: 1px;
-  padding-left: 0px;
-  padding-right: 0px
+  padding-left: 6px;
+  padding-right: 6px
 }
 
 @media (min-width:992px) {
@@ -9425,8 +9412,8 @@ table .eMinutes {
 }
 
 #header, .links, div.breadcrumbs {
-  margin-left: 0px;
-  margin-right: 0px
+  margin-left: -6px;
+  margin-right: -6px
 }
 
 #header iframe, .links iframe, div.breadcrumbs iframe {
@@ -9443,14 +9430,11 @@ table .eMinutes {
 }
 
 #header {
-	display: block;
-  padding: 20px
-	height: 50px !important;
-	/* margin: 0px 0px -10px; */
+  padding: 6px
 }
 
 #titleimg {
-  display: none;
+  display: block;
   max-width: 100%;
   height: auto
 }
@@ -12654,11 +12638,11 @@ span.grpCode {
 .links.navbar-default {
   background-color: #959cad;
   border-color: #959cad;
-  border-bottom: 4px solid #3d4460;
+  border-bottom: 4px solid #3d4460
 }
 
 .links.navbar-default .navbar-left {
-  float: none !important
+  float: right !important
 }
 
 #login .panel-default {
@@ -12734,7 +12718,8 @@ li.links-spare1 {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: 0px;
+    margin-top: 40px;
+    margin-left: 40px
   }
 }
 
