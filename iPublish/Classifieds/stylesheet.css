@@ -5,9 +5,9 @@
   width: 200px;
   height: 35px;
   margin: 0px;
-  background: blue !important;
-  background-color: blue !important;
-  /* color: #3a73b1; */
+  background: #3d4460 !important;
+  background-color: #3d4460 !important;
+  color: white !important;
   border-radius: 3px;
 }
 
