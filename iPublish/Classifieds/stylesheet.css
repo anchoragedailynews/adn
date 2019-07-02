@@ -5,6 +5,7 @@
   width: 200px;
   height: 35px;
   margin: 0px;
+  background: blue !important;
   background-color: blue !important;
   /* color: #3a73b1; */
   border-radius: 3px;
