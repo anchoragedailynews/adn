@@ -1,1 +1,15 @@
-/* To be updated! */
+#startbutton {
+  left: 44px !important;
+  top: 375px;
+  display: block;
+  width: 200px;
+  height: 30px;
+  margin: 0px;
+  background-color: white;
+  color: #3a73b1;
+  border-radius: 3px;
+}
+
+#startbutton img {
+  display: none;
+}
